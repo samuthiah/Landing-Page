@@ -84,3 +84,38 @@ a {
     max-width: 500px;
     object-fit: contain;
 }
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-images {
+    display: flex;
+    gap: 20px;
+    margin: 10px 100px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    flex: 1;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-image {
+    border: 1px solid #3882F6;
+}
+
+.info-text {
+    color: #1F2937;
+    font-size: 12px;
+    text-align: center;
+}

@@ -59,7 +59,6 @@ a {
 
 }
 
-
 .hero-left {
     display: flex;
     flex-direction: column;
@@ -118,4 +117,36 @@ a {
     color: #1F2937;
     font-size: 12px;
     text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding; 
+}
+
+.quote-text,
+.quote-author {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-text {
+    align-self: flex-start;
+    max-width: 80%;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
 }
